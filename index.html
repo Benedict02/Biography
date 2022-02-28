@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!--Pre-connects-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="top-nav">
+        <a href="index.html" class="nav-button-1">Home</a>
+        <a href="#news" class="nav-button-2">News</a>
+        <a href="#contact" class="nav-button-3">Contact</a>
+        <a href="about.html" class="nav-button-4">About</a>
+    </div><br>
+
+    <div class="toggle-button-plate">
+        <img src="src/light.png" class="toggle-button" onclick="toggle()">
+    </div>
+
+    <div class="content-jump-plate">
+        <a href="#top" class="content-jump">Jump to top</a><br>
+        <a href="#bottom" class="content-jump">Jump to bottom</a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <top id="top"></top>
+    <h1 class="Title"><strong>Biografi</strong></h1>
+    <hr class="title-hr" align="left">
+    <h2 class="Subtitle">Stuff that I learn from CaniComp</h2>
+
+    <p class="content">4-5 minggu yang lalu kita mulai belajar materi <a href="https://en.wikipedia.org/wiki/HTML5" class="links-html" target="_blank">HyperText Markup Language(HTML)</a> dan <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="links-css">Cascading Style Sheets(CSS)</a> di eskul CaniComp. Walaupun saya sudah belajar HTML dan CSS dari kelas 6, mereview ulang dan mempelajari element/attribute baru di HTML sangat menyenangkan. Pada minggu pertama hingga minggu ketiga kita mempelajari element dan attribute HTML di <a href="https://www.freecodecamp.org/" class="links" target="_blank">FreeCodeCamp</a>. Setelah mempelajari basic element HTML, kita mempelajari CSS. CSS adalah framework yang digunakan untuk memperindah webpage HTML, anggap aja seperti operasi plastik untuk HTML.
+    </p>
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <bottom id="bottom"></bottom>
+    <!--Google Translate JS API-->
+    <p>Translate The webpage here(Implementing google translate API using JS is a big mistake, but it works).</p>
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+    function googleTranslateElementInit()
+    {
+        new google.translate.TranslateElement({pageLanguage: 'end'}, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+    <p class="copyright">(c) Benedict Halim 2022</p>
+
+    <script>
+    function toggle() {
+        //Background
+        var body = document.body;
+        body.classList.toggle("light-theme");
+        //Google Translate
+    }
+
+
+    </script>
+
+
+</body>
+</html>
