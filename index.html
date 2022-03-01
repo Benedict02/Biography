@@ -14,7 +14,9 @@
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;900&display=swap" rel="stylesheet">
 
+    <!--External File links-->
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="top-nav">
@@ -25,7 +27,7 @@
     </div><br>
 
     <div class="toggle-button-plate">
-        <img src="src/light.png" class="toggle-button" onclick="toggle()">
+        <img src="src/light.png" class="toggle-button" onclick="toggle_light_theme()">
     </div>
 
     <div class="content-jump-plate">
@@ -34,13 +36,13 @@
     </div>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <top id="top"></top>
-    <h1 class="Title"><strong>Biografi</strong></h1>
+    <h1 class="Title"><strong>Biography</strong></h1>
     <hr class="title-hr" align="left">
     <h2 class="Subtitle">Stuff that I learn from CaniComp</h2>
 
-    <p class="content">4-5 minggu yang lalu kita mulai belajar materi <a href="https://en.wikipedia.org/wiki/HTML5" class="links-html" target="_blank">HyperText Markup Language(HTML)</a> dan <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="links-css">Cascading Style Sheets(CSS)</a> di eskul CaniComp. Walaupun saya sudah belajar HTML dan CSS dari kelas 6, mereview ulang dan mempelajari element/attribute baru di HTML sangat menyenangkan. Pada minggu pertama hingga minggu ketiga kita mempelajari element dan attribute HTML di <a href="https://www.freecodecamp.org/" class="links" target="_blank">FreeCodeCamp</a>. Setelah mempelajari basic element HTML, kita mempelajari CSS. CSS adalah framework yang digunakan untuk memperindah webpage HTML, anggap aja seperti operasi plastik untuk HTML.
-    </p>
-
+    <p class="content">4-5 weeks ago, we started learning <a href="https://en.wikipedia.org/wiki/HTML5" class="links-html" target="_blank">HyperText Markup Language(HTML)</a> and <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" class="links-css">Cascading Style Sheets(CSS)</a> in CaniComp. Even though I learned HTML and CSS since grade 6, reviewing things that I learned and knowing new element/attribute in HTML is really fun. So week 1 up until week 3, we learned about elements and attributes in HTML using this great website called <a href="https://www.freecodecamp.org/" class="links" target="_blank">FreeCodeCamp</a>. After learning some basics in HTML, we learned CSS. CSS is a framework used to beautify a HTML webpage, it's like plastic surgery for HTML. In my opinion CSS is pretty straightforward, but you need creativity and a lot of attribute implementation in order to make the webpage fabulous. I don't think I have anything more to talk about, we're just learning HTMl and CSS so there isn't really much to talk about.</p><br>
+    <p class="content">Due to lack of topic for this Bio, I would like to talk about how this webpage is created. This project started around Thursday, 24th February 2022. So the assignment is making a webpage using HTML and CSS, the topic is biograpy about stuff that I learned over the past month(s). I use HTML to make the text, paragraph, heading, icons, buttons, links, and the translate UI. After programming the HTML file, I linked a CSS file externally using the link element. Inside of the .css file, there are a lot of stuff happening. I divide some elements into classes, using those classes I can make the .css file change how the HTML element should be displayed. I realize that using HTMl and CSS is really easy for me. So I want to implement JavaScript, I added light theme into the webpage and even a "<a href="#translate-bar" class="links-translate-page">translate page</a>" selection using <a href="https://cloud.google.com/translate" target="_blank" class="links-google-translate-api">Google Translate API</a>. I learned some JavaScript basics arround 2-3 days, I personally dislike learning JavaScript because unlike <a href="https://www.python.org/" target="_blank" class="links-python">python</a> the syntax is a bit complicated.</p>
+    <p class="content">Github repository for this page can be found <a href="https://github.com/Benedict02/Biography" class="links-github" target="_blank">here</a>.</p>
 
 
 
@@ -48,31 +50,31 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <bottom id="bottom"></bottom>
     <!--Google Translate JS API-->
+    <gtranslate id="translate-bar"></gtranslate>
     <p>Translate The webpage here(Implementing google translate API using JS is a big mistake, but it works).</p>
     <div id="google_translate_element"></div>
-    <script type="text/javascript">
-    function googleTranslateElementInit()
-    {
-        new google.translate.TranslateElement({pageLanguage: 'end'}, 'google_translate_element');
-    }
-    </script>
-
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <p class="copyright">(c) Benedict Halim 2022</p>
-
-    <script>
-    function toggle() {
-        //Background
-        var body = document.body;
-        body.classList.toggle("light-theme");
-        //Google Translate
-    }
+    
 
 
-    </script>
 
-
+    <!--Referencing the about.js file-->
+    <script src="script.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
