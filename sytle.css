@@ -68,6 +68,61 @@ body
     color: rgb(38, 77, 228);
     font-size: 23px;
 }
+
+.links-google-translate-api
+{
+    transition: 0.5s;
+    color: rgb(45, 119, 255);
+    text-decoration: solid;
+}
+
+.links-google-translate-api:hover
+{
+    transition: 1s;
+    font-size: 23px;
+}
+
+.links-translate-page
+{
+    transition: 0.5s;
+    text-decoration: solid;
+    color: aquamarine;
+}
+
+.links-translate-page:hover
+{
+    transition: 1s;
+    font-size: 23px;
+}
+
+.links-python
+{
+    transition: 0.5s;
+    color: #306998;
+    text-decoration: solid;
+}
+
+.links-python:hover
+{
+    transition: 1s;
+    color: #FFD43B;
+    font-size: 23px;
+}
+
+.links-github
+{
+    transition: 0.5s;
+    color: #818181;
+    text-decoration: solid;
+}
+
+.links-github:hover
+{
+    transition: 1s;
+    color: #ffc400;
+    font-size: 23px;
+}
+
 /*End of Basic configuration*/
 
 
@@ -275,7 +330,9 @@ body
 
 .toggle-button-plate
 {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-left: 96.6%;
+    border-radius: 12.3px;
+    background-color: rgba(255, 255, 255, 0.671);
 }
